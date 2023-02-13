@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>kokoaclone</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="index-container">
+            <div class="status-bar">
+                <div class="status-bar__column">
+                    <span>No Service</span>
+                    <i class="fa-solid fa-wifi"></i>
+                </div>
+                <div class="status-bar__column">
+                    <span>21:23</span>
+                </div>
+
+                <div class="status-bar__column">
+                    <span>100%</span>
+                    <i class="fa-solid fa-battery-full"></i>
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+            </div>
+
+            <header class="welcome-header">
+                <h1 class="welcome-header__title">코코아톡에 온걸 환영해!</h1>
+                <p class="welcome-header__text">
+                    코코아 계정을 가지고 있다면 이메일이나 폰번호로 로그인
+                    해주세요.
+                </p>
+            </header>
+            <form action="friends.html" method="get" class="login-form">
+                <input
+                    name="username"
+                    type="text"
+                    placeholder="이메일 또는 폰번호"
+                />
+                <input name="password" type="password" placeholder="비밀번호" />
+                <button type="submit">로그인</button>
+                <button type="button">회원가입</button>
+                <a class="find-idpw" href="#" target="_blank"
+                    >코코아 계정 또는 비밀번호 찾기</a
+                >
+            </form>
+
+            <footer></footer>
+        </div>
+
+        <script
+            src="https://kit.fontawesome.com/d0a92ab04b.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
